@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebProject</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="container">
+        <h1 class="logo navbar-brand text-dark">OMNIWRITE</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtoggle">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navtoggle">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#about" class="nav-link text-dark">ABOUT</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link text-dark">CONTACT</a></li>
+            <li class="nav-item active"><a href="#download" class="nav-link text-dark">DOWNLOAD</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="p-4 text-center text-lg-start pt-md-5" id="showcase">
+      <div class="container">
+        <div class="d-lg-flex">
+          <div>
+            <h1 class="text-light">Join the community, set the start to your writing career!</h1>
+            <br>
+            <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quam nesciunt blanditiis eius tempora! Minima sed ad ut inventore, excepturi eos suscipit harum doloremque consectetur quo temporibus tempora perferendis numquam nihil maxime accusantium fuga exercitationem a placeat culpa, velit atque asperiores obcaecati aut! Possimus officia necessitatibus voluptate quas iusto repellendus.</p>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur labore accusamus, reprehenderit et alias, numquam maiores provident nesciunt facilis placeat atque sit soluta voluptate dolor? Aspernatur molestiae sequi id dolores.</p>
+            <br>
+            <h6 class="text-light lead">Let's get started!</h6>
+            <button type="button" class="btn btn-warning">Download</button>
+            <br>
+            <br>
+          </div>
+          <div id="image">
+            <img id="writer" src="img/writer.png" alt="forest">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light text-dark p-4">
+      <div class="d-md-flex justify-content-evenly align-items-center">
+        <h2>Wanna keep up with our writing contests?</h2>
+        <div class="form-group text-dark w-md-50">
+          <label for="inputEmail" class="lead">Enter your email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="app-info">
+      <div class="container pt-5" id="info-boxes">
+        <div class="row">
+          <div class="col-md text-center d-flex justify-content-center">
+            <div class="card">
+              <img class="card-img-top" src="img/team.jpg" alt="team">
+              <div class="card-body p-5">
+                <h5 class="card-title">Work with your team</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatum, nulla expedita id animi numquam!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center">
+            <div class="card">
+              <div class="p-5">
+                <img class="card-img-top" src="img/workflow.png" alt="workflow">
+              </div>
+              <div class="card-body p-5">
+                <h5 class="card-title">Set up your own workflow</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque totam quis distinctio laudantium, nulla accusantium!.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center">
+            <div class="card">
+              <div class="p-5">
+                <img class="card-img-top" src="img/asset.png" alt="assets">
+              </div>
+              <div class="card-body p-5">
+                <h5 class="card-title">Tons of writing assests</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores in sunt vitae. Consequuntur, facere nobis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-light text-dark">
+    <section id="form">
+      <form class="footer-form">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Name">
+          </div>
+          <div class="col-md-6">
+          <label for="inputSurname">Surname</label>
+          <input type="text" class="form-control" id="inputSurname" placeholder="Surname">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="inputCountry">Country</label>
+            <input type="text" class="form-control" id="inputCountry">
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-2">
+            <label for="inputPostal">Postal Code</label>
+            <input type="text" class="form-control" id="inputPostal">
+          </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-dark">Sign in</button>
+      </form>
+    </section>
+    <section id="contact-info">
+      <p class="text-muted">Contact us by <b>+(996)53-24-33</b></p>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
