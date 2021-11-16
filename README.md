@@ -21,10 +21,10 @@ Footer with a form to sign up
 
 ![thirdsection](img/thirdsection.png)
 
-###Languages used  
+### Languages used  
 
 ![html](img/html.png)
 ![css](img/css.png)
 
-###Framework  
+### Framework  
 ![bootstrap](img/bootstrap.png)
