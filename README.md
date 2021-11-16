@@ -8,7 +8,7 @@ Toggle-Button             |  Retrieved rows
 ## Structure
 
 Responsive heading  
-Basic information about the app + floating image representing the software
+Basic information about the app + floating image representing the software  
 Sign-up for newsletter section
 
 ![firstsection](img/firstsection.png)
