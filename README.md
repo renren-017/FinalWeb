@@ -1,13 +1,28 @@
 # Simple Web Project for (non-existing) writing app
 
-Simple overview of use/purpose.
+![](img/phonescreen.PNG)
+![](img/phonescreen2.PNG)
 
-## Description
+## Structure
 
-![firstsection][img/firstsection.png]
+Responsive heading
+Basic information about the app
+Sign-up for newsletter section
 
-![secondsection][img/secondsection.png]
+![firstsection](img/firstsection.png)
 
-![thirdsection][img/thirdsection.png]
+Short info about the app pros
 
-## Languages used
+![secondsection](img/secondsection.png)
+
+Footer with a form to sign up
+
+![thirdsection](img/thirdsection.png)
+
+###Languages used
+
+![html](img/html.png)
+![css](img/css.png)
+
+###Framework
+![bootstrap](img/bootstrap.png)
