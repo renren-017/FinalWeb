@@ -3,7 +3,7 @@
 
 Toggle-Button             |  Retrieved rows
 :-------------------------:|:-------------------------:
-![](img/phonescreen.PNG)  |  ![](img/phonescreen2.PNG)
+![](img/phonescreen2.PNG)  |  ![](img/phonescreen.PNG)
 
 ## Structure
 
