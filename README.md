@@ -1,7 +1,6 @@
 # Simple Web Project for (non-existing) writing app
 
-![](img/phonescreen.PNG)
-![](img/phonescreen2.PNG)
+![](img/phonescreen.PNG) ![](img/phonescreen2.PNG)
 
 ## Structure
 
